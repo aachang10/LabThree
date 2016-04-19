@@ -14,7 +14,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
     MainActivity mainActivity;
     private static final String num1 = "4 ENTER";
     private static final String num2 = "3 ENTER";
-    private static final String result = "7.0";
+    private static final String result = "1.0";
     public JUnit_test(){
         super(MainActivity.class);
     }
