@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         firstNumber = (EditText)findViewById(R.id.editText);
         secondNumber = (EditText)findViewById(R.id.editText2);
-        result = (EditText)findViewById(R.id.editText3);
+        result = (TextView)findViewById(R.id.textView4);
         btnAdd = (Button)findViewById(R.id.btnAdd);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {

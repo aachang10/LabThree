@@ -2,6 +2,7 @@ package tests;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.example.allen.labthree.MainActivity;
 import com.example.allen.labthree.R;
@@ -24,7 +25,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
         sendKeys(num1);
         sendKeys(num2);
         sendKeys("ENTER");
-        EditText addedNum = (EditText)mainActivity.findViewById(R.id.editText3);
+        TextView addedNum = (TextView)mainActivity.findViewById(R.id.textView4);
         String add_result = addedNum.getText().toString();
         assertEquals(result, add_result);
        /*

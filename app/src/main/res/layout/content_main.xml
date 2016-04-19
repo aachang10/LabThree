@@ -45,17 +45,6 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText2"
-        android:layout_toRightOf="@+id/btnAdd"
-        android:layout_toEndOf="@+id/btnAdd"
-        android:layout_marginTop="156dp" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,8 +73,18 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Result"
         android:id="@+id/textView3"
-        android:layout_alignBottom="@+id/editText3"
-        android:layout_toLeftOf="@+id/btnAdd"
-        android:layout_toStartOf="@+id/btnAdd" />
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="81dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
